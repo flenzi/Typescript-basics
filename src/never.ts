@@ -1,11 +1,11 @@
-let userInput: unknown;
-let userName: string;
+let _userInput: unknown;
+let _userName: string;
 
-userInput = 5;
-userInput = "as";
+_userInput = 5;
+_userInput = "as";
 
-if (typeof userInput === "string") {
-  userName = userInput;
+if (typeof _userInput === "string") {
+  _userName = _userInput;
 }
 
 function generateError(message: string, code: number): never {
